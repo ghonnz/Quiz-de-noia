@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quiz para noias</title>
+        <meta name="description" content="Um Quiz legal">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz para noias</h1>
+            <p>teste umas coisas aí</p>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Sobre esse Quiz:</h2>
+                <p>Quiz feito para você testar seu <strong>conhecimento</strong> em <abbr title="Bebidas Alcoólicas"><em>gorós</em></abbr>.</p>
+                <p>Você vai encontrar diferentes tipo de perguntas sobre <em>bebidas</em>.</p>
+                <p>Faz a boa e testa o quanto você sabe sobre o assunto. <br>Mostre que você é foda!</p>
+            </section>
+            <!--Pergunta 1: Alternativas-->
+            <section>
+                <h2>Pergunta 1: Qual a bebida mais famosa entre os mendigos?</h2>
+                <form>
+                    <input type="radio" value="Balalaika" id="p1a" name="pergunta1">
+                    <label for="p1a">Balalaika</label><br>
+                    <input type="radio" value="51" id="p1b" name="pergunta1">
+                    <label for="p1b">51</label><br>
+                    <input type="radio" value="Corote" id="p1c" name="pergunta1">
+                    <label for="p1c">Corote</label><br>
+                    <input type="radio" value="Smirnoff" id="p1d" name="pergunta1">
+                    <label for="p1d">Smirnoff</label>
+                </form>
+            </section>
+            <!--Pergunta 2: Alternativas-->
+            <section>
+                <h2>Pergunta 2: No Slogan da skol, qual é a frase dita?</h2>
+                <form>
+                    <input type="radio" value="Desce molhando" id="p2a" name="pergunta2">
+                    <label for="p2a">Desce molhando</label><br>
+                    <input type="radio" value="Sobe secando" id="p2b" name="pergunta2">
+                    <label for="p2b">Sobe secando</label><br>
+                    <input type="radio" value="Desce quadrado" id="pbc" name="pergunta2">
+                    <label for="p2c">Desce quadrado</label><br>
+                    <input type="radio" value="Desce redondo" id="p2d" name="pergunta2">
+                    <label for="p2d">Desce redondo</label>
+                </form>
+            </section>
+            <!--Pergunta 3: Escreva sua resposta-->
+            <section>
+                <h2>Pergunta 3: Além de bebidas, o que a empresa <strong>Asteca Hinomoto</strong> fabrica?</h2>
+                <form>
+                <input type="text" id="p3" name="pergunta3"
+                placeholder="Escreva a sua resposta...">
+                </form>
+            </section>
+            <!--Pergunta 4: Escreva a sua resposta-->
+            <section>
+                <h2>Pergunta 4: Em que ano a cerveja <strong>Corona</strong> foi criada?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+            <!--Pergunta 5: Múltipla escolha-->
+            <section>
+                <h2>Pergunta 5: Quais dessas cervejas são brasileiras?</h2>
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="Itaipava">
+                    <label for="p5a">Itaipava</label><br>
+                    <input type="checkbox" id="p5b" name="pergunta5" value="Bohemia">
+                    <label for="p5b">Bohemia</label><br>
+                    <input type="checkbox" id="p5c" name="pergunta5" value="Corona">
+                    <label for="p5c">Corona</label><br>
+                    <input type="checkbox" id="p5d" name="pergunta5" value="Kaiser">
+                    <label for="p5d">Kaiser</label><br>
+                    <input type="checkbox" id="p5e" name="pergunta5" value="Crystal">
+                    <label for="p5e">Crystal</label><br>
+                    <input type="checkbox" id="p5f" name="pergunta5" value="Todas alternativas acima">
+                    <label for="p5f">Todas alternativas acima</label><br>
+                </form>
+            </section>
+            <!--Pergunta 6: Upload de arquivo-->
+            <section>
+                <h2>Pergunta 6: Coloque uma imagem de qualquer Logomarca de Whisky</h2>
+                <form>
+                <input type="file" id="p6" name="pergunta6">
+                </form>
+            </section>
+            <!--Pergunta 7-->
+            <section>
+                <h2>Pergunta 7: Selecione em que ano a Skol perdeu sua relevancia no mercado:</h2>
+                <form>
+                    <select name="pergunta7" id="p7">
+                        <option value="2005/2009">2005/2009</option>
+                        <option value="2011/2020">2011/2020</option>
+                        <option value="2011/2019">2011/2019</option>
+                        <option value="2023/2025">2023/2025</option>
+                        <option value="1935/1980">1935/1980</option>
+                    </select>
+                </form>
+            </section>
+            <!--Pergunta 8: Imagem-->
+            <section>
+                <h2>Pergunta 8: A qual marca de bebida pertence esse Logotipo pertence?</h2>
+                <figure>
+                    <img src="image.png" alt="Homem caminhando"><br>
+                    <figcaption><em>FIgura 1: Logomarca de uma bebida</em></figcaption>
+                </figure>
+                <input type="text" id="p8" name="pergunta8" placeholder="Escreva sua resposta...">
+            </section>
+            <!--Atbela de pontuação-->
+            <section>
+                <h2>Tabela de pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0/2</td>
+                            <td>Mais fácil beber leite</td>
+                        </tr>
+                        <tr>
+                            <td>3/4</td>
+                            <td>Bebe que nem moçinha</td>
+                        </tr>
+                        <tr>
+                            <td>5/7</td>
+                            <td>Bebe que nem um velho de bar</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Bebe que nem um mendigão raiz</tr>
+                        </tr>
+                     </tbody>
+                </table>
+            </section>
+            <!--Lista de Respostas-->
+            <section>
+                <h2>Verifique suas resposta</h2>
+                <details>
+                    <summary>Clique aqui para ver</summary>
+                    <ol>
+                        <li>Corote</li>
+                        <li>Desce redondo</li>
+                        <li>Diferentes tipos de molho</li>
+                        <li>Ano de 1925</li>
+                        <li>a, b, d e c</li>
+                        <li>(imagem)</li>
+                        <li>2011/2019</li>
+                        <li>Johnnie Walker</li>
+                    </ol>
+                </details>
+
+            </section>
+
+        </main>
+        <footer>
+            <p>&copy Quiz muito foda que eu fiz
+            </p>
+        </footer>
+    </body>
+    <script>
+        console.log("Bem vindo");
+        
+    </script>
+</html>
